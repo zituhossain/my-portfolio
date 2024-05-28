@@ -2,7 +2,7 @@ import React from "react";
 import spotify from "../assets/projects/spotify1.png";
 import cartApp from "../assets/projects/cartApp.png";
 import todoApp from "../assets/projects/todoApp.png";
-import countryApp from "../assets/projects/countryApp.png";
+import blogNextApp from "../assets/projects/blogNextApp.png";
 import crudApp from "../assets/projects/crudApp.png";
 import websiteDesign from "../assets/projects/websiteDesign.png";
 
@@ -110,17 +110,17 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${countryApp})` }}
+            style={{ backgroundImage: `url(${blogNextApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-xl font-bold text-white tracking-wider">
-                Country Application
+                Blog Next JS Application
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://simple-country-app.netlify.app/"
+                  href="https://blog-app-next-js-pink-rho.vercel.app/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -128,7 +128,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/zituhossain/react-country-app"
+                  href="https://github.com/zituhossain/blogAppNextJs"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
