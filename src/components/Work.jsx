@@ -5,6 +5,8 @@ import todoApp from "../assets/projects/todoApp.png";
 import blogNextApp from "../assets/projects/blogNextApp.png";
 import crudApp from "../assets/projects/crudApp.png";
 import websiteDesign from "../assets/projects/websiteDesign.png";
+import todoKanaban from "../assets/projects/todoKanaban.png";
+import rateCalendar from "../assets/projects/rateCalendar.png";
 import accounting1 from "../assets/projects/accounting1.png";
 import accounting2 from "../assets/projects/accounting2.png";
 import accounting3 from "../assets/projects/accounting3.png";
@@ -36,7 +38,7 @@ const Work = () => {
     { original: websiteDesign },
   ];
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className="w-full text-gray-300 bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -230,6 +232,60 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/zituhossain/Simple-Website-using-react-tailwind"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${todoKanaban})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-xl font-bold text-white tracking-wider">
+                React Todo Board
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://to-do-board-omega.vercel.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/zituhossain/toDoBoard"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${rateCalendar})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-xl font-bold text-white tracking-wider">
+                React Calender App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://qmqhtj-5173.csb.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/zituhossain/rateCalenderApp"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
