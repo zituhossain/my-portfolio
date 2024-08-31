@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import jobPortal from "../assets/projects/jobPortal.png";
 import spotify from "../assets/projects/spotify1.png";
 import cartApp from "../assets/projects/cartApp.png";
 import todoApp from "../assets/projects/todoApp.png";
@@ -50,6 +51,36 @@ const Work = () => {
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/* Grid item */}
+          <div
+            style={{ backgroundImage: `url(${jobPortal})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-xl font-bold text-white tracking-wider">
+                Job Portal MERN Application
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://jobportalfrontend-r7o2.onrender.com/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/zituhossain/jobPortalFrontend"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/* Grid item */}
           <div
             style={{ backgroundImage: `url(${spotify})` }}
