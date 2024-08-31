@@ -76,10 +76,10 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon" />
             <p>MONGO</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Graphql} alt="GRAPHQL icon" />
             <p>GRAPHQL</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Redux} alt="Redux icon" />
             <p>Redux</p>
